@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Constants\**" />
+      <Compile Remove="Interfaces\ICommand.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Constants\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Constants\**" />
+    </ItemGroup>
+
+</Project>
