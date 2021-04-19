@@ -3,15 +3,14 @@
 The solution contains two .NET 5 class libraries and a unit test project.
 
 ## Design decisions
-- Tried to strike a balance between refactoring and complexity
+- I tried to strike a balance between refactoring and complexity
 - I used MediatR to have a simple command and a handler.
 - I liked the idea of queueing movements and passed them as part of the command.
-- The command handler emits domain events, these can be routed to other parts of the Rover software.
-- This shows a basic DDD pattern. 
+- The command handler emits domain events, these can be routed to other parts of the Rover software. This shows a basic DDD pattern.
 
 ## How to run:
 * Clone repository from: https://github.com/nickpts/Pluto.Rover.git
-* You will need to have .NET 5 installed. 
+* You will need to have the .NET 5 runtime and sdk installed. 
 * Enter Pluto.Rover.Tests directory.
 * Type dotnet test. 
 * Tests should pass.
