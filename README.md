@@ -1,6 +1,6 @@
 # Pluto Rover 
 
-The solution contains a .NEt 5 library with unit tests
+The solution contains two .NET 5 class libraries and a unit test project.
 
 ## Design decisions
 - Tried to strike a balance between refactoring and complexity
