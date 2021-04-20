@@ -7,6 +7,7 @@ The solution contains two .NET 5 class libraries and a unit test project.
 - I used MediatR to have a simple command and a handler.
 - I liked the idea of queueing movements and passed them as part of the command.
 - The command handler emits domain events, these can be routed to other parts of the Rover software. This shows a basic DDD pattern.
+- The rover is tested almost entirely as a unit from the command handler tests.
 
 ## How to run:
 * Clone repository from: https://github.com/nickpts/Pluto.Rover.git
